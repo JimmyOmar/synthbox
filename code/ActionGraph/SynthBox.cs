@@ -4,7 +4,7 @@ using System.Collections.Concurrent;
 
 public static class AudioConstants
 {
-    public const int BufferSize = 1024; // Buffer size (unfortunately, the effectiveness of adjusting the buffer size to reduce delay and pops/clicks was limited)
+    public const int BufferSize = 512; // Buffer size (unfortunately, the effectiveness of adjusting the buffer size to reduce delay and pops/clicks was limited)
     public const int SampleRate = 44100;
     public const int ProcessAudioCalls = 3; // Number of times ProcessAudio is called
 }
